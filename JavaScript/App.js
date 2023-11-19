@@ -7,4 +7,22 @@ const sum = () => {
   return result
 }
 
+const rest = () => {
+  result = num - num2
+  return result
+}
+
+const mult = () => {
+  result = num * num
+}
+
+const div = () => {
+  if(num2 === 0){
+    alert('No es posible dividir por 0')
+  }else{
+     result = num / num2
+     return result
+  }     
+} 
+
 alert(sum())
