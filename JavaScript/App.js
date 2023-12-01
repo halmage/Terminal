@@ -7,8 +7,6 @@ const sum = () => {
   return result
 }
 
-<<<<<<< HEAD
-=======
 const rest = () => {
   result = num - num2
   return result
@@ -27,5 +25,4 @@ const div = () => {
   }     
 } 
 
->>>>>>> feature/JavaScript
 alert(sum())

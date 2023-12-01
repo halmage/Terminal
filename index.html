@@ -7,30 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="btn">item#1</li>
-                <li class="btn">item#2</li>
-                <li class="btn">item#3</li>
-                <li class="btn">item#4</li>
-            </ul>
-        </nav>
-    </header>
-    <section class="main">
-        <h1>Estamos aprendiendo Frontend Developer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi impedit reiciendis natus voluptatibus atque.
-           Maxime odit animi odio ratione quibusdam, sapiente, 
-           inventore necessitatibus corporis culpa quod molestias dolorum nemo!
-        </p>
-        <ul>
-            <li>item#1</li>
-            <li>item#2</li>
-            <li>item#3</li>
-            <li>item#4</li>
-        </ul>
-    </section>
-    <footer></footer>
+    <!-- main cuerpo principal de la pagina -->
+    <main class="container">
+        <!-- seccion del formulario -->
+        <section class="form-container">
+            <img src="/logos/logo_yard_sale.svg" alt="logo" class="logo">
+        
+            <h1 class="title">Create a new password</h1>
+            <p class="subtitle">Enter a new passwrd for yue account</p>
+        
+            <form action="/" class="form">
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" placeholder="*********" class="input input-password">
+        
+                <label for="new-password" class="label">Password</label>
+                <input type="password" id="new-password" placeholder="*********" class="input input-password">
+        
+                <input type="submit" value="Confirm" class="button-primary button-login">
+            </form>
+        </section>
+    </main>
 </body>
-<!--<script src="/JavaScript/App.js"></script>-->
 </html>
