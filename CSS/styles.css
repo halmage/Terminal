@@ -1,9 +1,0 @@
-.color{
-    color: #1E6A45;
-}
-.color::after{
-    color: blue;
-}
-.color::before{
-    content: "$";
-}
